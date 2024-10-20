@@ -1,0 +1,9 @@
+/ {
+	more_leds {
+		compatible = "gpio-leds";
+		myled: myled {
+			gpios = <&gpio0 15 GPIO_ACTIVE_HIGH>;
+			label = "My LED";
+		};
+	};
+};
